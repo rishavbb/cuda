@@ -1,0 +1,3 @@
+/home/rishav/cuda_learn/build/CMakeFiles/hello.dir
+/home/rishav/cuda_learn/build/CMakeFiles/edit_cache.dir
+/home/rishav/cuda_learn/build/CMakeFiles/rebuild_cache.dir
