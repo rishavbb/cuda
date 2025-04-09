@@ -44,7 +44,7 @@ int main(int argc, char **argv){
     const int IMG_SIZE_BYTES = h_img.rows * h_img.cols  * h_img.elemSize();  //h_img.elemSize() = number of bytes per pixel, including all channels
     std::cout<<"Size of color image: "<<IMG_SIZE_BYTES<<std::endl;
 
-    cv::Mat bw_img(h_img.rows, h_img.cols, CV_8UC1);;
+    cv::Mat bw_img(h_img.rows, h_img.cols, CV_8UC1);
 
     uchar *d_in, *d_out;
     cudaMalloc( (void**) &d_in, IMG_SIZE_BYTES);
